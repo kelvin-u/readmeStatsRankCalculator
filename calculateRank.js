@@ -80,6 +80,12 @@ form.addEventListener("submit", function (event) {
     followers
   );
 
-  const outputText = `Level: ${rankResult.level}<br>Percentile: ${rankResult.percentile}%`;
+  const roundedPercentile = rankResult.percentile.toFixed(2); // Round to two decimal places
+
+  const outputText = `
+    <p class="level">Level: ${rankResult.level}</p>
+    <p class="percentile">Percentile: ${roundedPercentile}%</p>
+  `;
+
   outputDiv.innerHTML = outputText;
 });
