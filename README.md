@@ -20,7 +20,7 @@ Calculates your [github-readme-stats](https://github.com/anuraghazra/github-read
 
 ## Installation
 
-1. go to website hosted on github and enter stats from [github-readme-stats](https://github.com/anuraghazra/github-readme-stats)
+1. go to website hosted on [github](https://kelvin-u.github.io/readmeStatsRankCalculator/) and enter stats from [github-readme-stats](https://github.com/anuraghazra/github-readme-stats)
 
 ## Contact
 
