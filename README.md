@@ -1,4 +1,4 @@
-# readmeStatsRankCalc: Calculates your github-readme-stats rank using calculateRank.js
+# readmeStatsRankCalc: Calculates your Github Status Rank
 
 ![pic logo](https://github.com/kelvin-u/readmeStatsRankCalculator/blob/main/githubstats.png?raw=true)
 
@@ -12,7 +12,7 @@
 
 ## About
 
-Calculates your [github-readme-stats]() rank using [calculateRank.js]()
+Calculates your [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) rank using [calculateRank.js](https://github.com/anuraghazra/github-readme-stats/blob/master/src/calculateRank.js)
 
 ## Key Features
 
@@ -20,7 +20,7 @@ Calculates your [github-readme-stats]() rank using [calculateRank.js]()
 
 ## Installation
 
-1. go to website hosted on github and enter stats from [github-readme-stats]()
+1. go to website hosted on github and enter stats from [github-readme-stats](https://github.com/anuraghazra/github-readme-stats)
 
 ## Contact
 
