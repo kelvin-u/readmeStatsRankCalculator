@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>calculate rank</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2 style="margin-top: -2px">Enter Your Github Stats</h2>
+      <form id="infoForm">
+        <div class="input-wrapper">
+          <label for="commits" title="">All Commits:</label>
+          <input
+            type="radio"
+            id="trueOption"
+            name="allCommit"
+            value="true"
+            required
+          />
+          <label for="trueOption">True</label>
+          <input
+            type="radio"
+            id="falseOption"
+            name="allCommit"
+            value="false"
+            required
+          />
+          <label for="falseOption">False</label>
+        </div>
+
+        <div class="input-wrapper">
+          <label for="age">Commits:</label>
+          <input type="number" id="commits" name="commits" required />
+        </div>
+
+        <div class="input-wrapper">
+          <label for="age">Pull Requests:</label>
+          <input type="number" id="prs" name="prs" required />
+        </div>
+
+        <div class="input-wrapper">
+          <label for="age">Issues:</label>
+          <input type="number" id="issues" name="issues" required />
+        </div>
+
+        <div class="input-wrapper">
+          <label for="age">Reviews:</label>
+          <input type="number" id="reviews" name="reviews" required />
+        </div>
+
+        <div class="input-wrapper">
+          <label for="age">Stars:</label>
+          <input type="number" id="stars" name="stars" required />
+        </div>
+
+        <div class="input-wrapper">
+          <label for="age">Followers:</label>
+          <input type="number" id="followers" name="followers" required />
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <div class="output" id="outputDiv"></div>
+
+    <script src="calculateRank.js"></script>
+  </body>
+</html>
